@@ -11,4 +11,6 @@ N'oublier jamais de pull le projet avant de codé pour voir si le main a changé
 
 C'est sur qu'il va avoir des conflits, des problemes et autres, mais nous sommes ici pour apprendre et voir le comportement de Git et comment resoudre les conflits que cela entraine. 
 
+***** Please regarder les bonnes pratique de programmation en python, ce n'est pas du Java, vous pouvez travailler sur plusieur classe dans un meme fichier en python, et la mise en page est differente ! 
+
 # HAVE FUN 
