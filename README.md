@@ -13,4 +13,6 @@ C'est sur qu'il va avoir des conflits, des problèmes et autre, mais nous sommes
 
 ***** Please regarder les bonnes pratiques de programmation en python, ce n'est pas du Java, vous pouvez travailler sur plusieurs classes dans un même fichier en python, et la mise en page est differente ! 
 
+***** De plus, les solutions sont un python 2.0 alors, faite attention la structure a changer un peu, mais la sémentique reste la meme. 
+
 # HAVE FUN 
