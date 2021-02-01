@@ -5,7 +5,7 @@ Voici le 100+ challenges de notre première série de challenges de UQODE. Le bu
 
 Le but est de travailler en équipe, partager vos connaisances et surtout pratiquer la COMMUNICATION. Premièrement, le but est de vous choisir un problème à résoudre dans la liste des problèmes que vous allez retourver dans le fichier texte challengeUQODE. Il y a des challenges pour tous les nivaux de programmation, alors vous avez le choix. 
 
-Quand vous avez choisi le défi que vous voulez relevez, allez dans la section issus dans Github et crée un issus et assigner-le vous avec la description du challenge que vous allez relevez. Vous devez vous créer une branche sur kitKraken sur laquelle vous allez travailler.  Ensuite vous poussez votre code sur votre branche et faite une demande pour la pousser sur la branche principal ( le main ). 
+Quand vous avez choisi le défi que vous voulez relevez, allez dans la section issus dans Github et crée un issus et assigner-le vous avec la description du challenge que vous allez relevez. VERIFIER LES CLOSE ISSUES POUR VOIR LES CHALLENGES QUI ON ETE EFFECTUER.  Vous devez vous créer une branche sur kitKraken sur laquelle vous allez travailler.  Ensuite vous poussez votre code sur votre branche et faite une demande pour la pousser sur la branche principal ( le main ). 
 
 N'oublier jamais de pull le projet avant de coder pour voir si le main a changé.
 
