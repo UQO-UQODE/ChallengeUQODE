@@ -24,7 +24,7 @@ def question21():
     LEFT 3
     RIGHT 2
 
-    should give: 
+    should give:
     2
     """
     pos = {'x':0, 'y':0}
