@@ -17,7 +17,8 @@ def question1():
 def question21():
     """
     Auteur: Marc-Antoine Ricard
-    Description: program that can get command like UP 5, DOWN 3, LEFT 3, RIGHT 2 and calculate optimale distance between the starting point and the ending point
+    Description: This program can get command like UP 5, DOWN 3, LEFT 3, RIGHT 2 and calculate optimale distance between the starting point and the ending point 
+    and there is a robot somewhere too, not sur where, but i'm pretty sur the question was about a robot.
     Test:
     UP 5
     DOWN 3
