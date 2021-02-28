@@ -1,4 +1,4 @@
-import math
+import math, re
 
 def question1():
     """
@@ -14,10 +14,37 @@ def question1():
 
     print(','.join(l))
 
+def question18():
+    """
+    Auteur: Marc-Antoine Ricard
+    Description:
+    Check the validity of password input by users.
+    Following are the criteria for checking the password:
+    1. At least 1 letter between [a-z]
+    2. At least 1 number between [0-9]
+    1. At least 1 letter between [A-Z]
+    3. At least 1 character from [$#@]
+    4. Minimum length of transaction password: 6
+    5. Maximum length of transaction password: 12
+    Input:
+    ABd1234@1,a F1#,2w3E*,2We3345
+    output:
+    ABd1234@1
+    """
+    reg = "^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[$#@])[A-Za-z\d@$#]{6,12}$"
+    passwd = input().split(',')
+    validPasswd = []
+    for p in passwd:
+        if(re.search(reg,p)):
+            validPasswd.append(p)
+
+    print(",".join(validPasswd))
+
 def question21():
     """
     Auteur: Marc-Antoine Ricard
-    Description: This program can get command like UP 5, DOWN 3, LEFT 3, RIGHT 2 and calculate optimale distance between the starting point and the ending point 
+    Description:
+    This program can get command like UP 5, DOWN 3, LEFT 3, RIGHT 2 and calculate optimale distance between the starting point and the ending point
     and there is a robot somewhere too, not sur where, but i'm pretty sur the question was about a robot.
     Test:
     UP 5
@@ -84,4 +111,4 @@ def question22():
 # Test question 1 
 # ce test est a titre d'exemple
 # On ne devrais pas garder ca, car ca va faire beaucoup de print si tout le monde en fait.
-question22()
+question18()
